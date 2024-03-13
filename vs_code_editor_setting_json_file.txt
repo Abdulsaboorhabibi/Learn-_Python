@@ -1,0 +1,37 @@
+{
+  "workbench.colorTheme": "Ayu Green Mirage Bordered",
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "ayu",
+  "editor.fontSize": 18,
+  "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontWeight": "bold",
+  "terminal.integrated.fontSize": 17,
+  "terminal.integrated.fontWeight": "bold",
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[django-html]": {
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html",
+    "py": ".py"
+  },
+  "tailwindCSS.suggestions": true,
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".css",
+      "savePath": "/public/css"
+      //"savePathReplacementPairs": null
+    }
+  ],
+  "liveSassCompile.settings.generateMap": false
+}
